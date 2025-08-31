@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
-  margin: 0;
-  padding: 0;
+     background-color: #D9D9D9;
 }
 .container{
     width:1150px;
@@ -23,8 +20,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffff;
-  
 }
 
 ul li {
@@ -41,11 +36,19 @@ ul li a {
   font-size: 16px;
   font-weight: 400;
 }
-
 ul li a:hover {
   color: #252432;
   font-weight: bold;
 }
 .fa-shopping-cart{
   padding-right: 5px;
+}
+
+/* Flower Part */
+.alawys{
+  color: #252432;
+  margin-top: 25px;
+}
+.fresh_Flowers{
+  margin-top: 100px;
 }
