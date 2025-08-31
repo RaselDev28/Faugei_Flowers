@@ -13,6 +13,9 @@ body {
 }
 .navbar{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -20,7 +23,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #ffff;
+  
 }
 
 ul li {
@@ -29,12 +33,19 @@ ul li {
 
 ul li a {
   display: block;
-  color: white;
+  color: #8987A1;
   text-align: center;
-  padding: 14px 16px;
+  padding: 45px;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  color: #252432;
+  font-weight: bold;
+}
+.fa-shopping-cart{
+  padding-right: 5px;
 }
