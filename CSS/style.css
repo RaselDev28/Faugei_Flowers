@@ -70,10 +70,70 @@ ul li a:hover {
   text-align: justify;
   text-justify: inter-word;
   margin-top: 0px;
+  opacity: .5;
 }
 .fresh_Flowers{
   justify-content: space-between;
 }
 .flower_img{
   padding-right: 40px;
+}
+
+/* Plants Part Start */
+.our_plants{
+  margin-top: 130px;
+}
+.our_plats_Text{
+  text-align: center;
+}
+.our_plants_heading h3{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Noto Serif;
+}
+.our_plants_heading h3 span{
+  color:#E95A08;
+}
+.our_plants_plain_text{
+  color: #000000;
+  opacity: 0.5;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding-top: 10px;
+}
+
+
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  max-width: 25%;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+}
+.card h1{
+  margin-bottom: 0;
+}
+.price {
+  color: #111111;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #E95A08;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
 }
