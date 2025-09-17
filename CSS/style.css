@@ -30,7 +30,7 @@ ul li a {
   display: block;
   color: #8987A1;
   text-align: center;
-  padding: 45px;
+ padding-left: 65px;
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -40,9 +40,7 @@ ul li a:hover {
   color: #252432;
   font-weight: bold;
 }
-.fa-shopping-cart{
-  padding-right: 5px;
-}
+
 
 /* Flower Part */
 .alawys{
@@ -53,6 +51,7 @@ ul li a:hover {
 }
 .fresh_Flowers{
   margin-top: 100px;
+ 
 }
 .fresh{
   color: #E95A08;
@@ -74,10 +73,9 @@ ul li a:hover {
 }
 .fresh_Flowers{
   justify-content: space-between;
+    max-width: 100%;
 }
-.flower_img{
-  padding-right: 40px;
-}
+
 
 /* Plants Part Start */
 .our_plants{
@@ -108,8 +106,8 @@ ul li a:hover {
   background-color: white;
 }
 
-.card {
-  max-width: 22%;
+.card{
+  max-width: 24%;
   margin: auto;
   text-align: center;
   padding: 0;
