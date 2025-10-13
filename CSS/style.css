@@ -1,18 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #D9D9D9;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #D9D9D9;
 }
-.container{
-    width:1150px;
-   margin: auto;
+
+.container {
+  width: 1150px;
+  margin: auto;
 }
-.navbar{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 ul {
@@ -30,12 +32,13 @@ ul li a {
   display: block;
   color: #8987A1;
   text-align: center;
- padding-left: 65px;
+  padding-left: 65px;
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
+
 ul li a:hover {
   color: #252432;
   font-weight: bold;
@@ -43,17 +46,19 @@ ul li a:hover {
 
 
 /* Flower Part */
-.alawys{
+.alawys {
   color: #252432;
   margin-top: 25px;
   font-size: 65px;
-   font-family: Noto Serif;
+  font-family: Noto Serif;
 }
-.fresh_Flowers{
+
+.fresh_Flowers {
   margin-top: 100px;
- 
+  display: flex;
 }
-.fresh{
+
+.fresh {
   color: #E95A08;
   font-size: 65px;
   font-weight: bold;
@@ -61,7 +66,8 @@ ul li a:hover {
   margin: 0;
   padding: 0;
 }
-.fresh-plain-text{
+
+.fresh-plain-text {
   color: #000000;
   font-size: 20px;
   font-weight: 400;
@@ -71,28 +77,33 @@ ul li a:hover {
   margin-top: 0px;
   opacity: .5;
 }
-.fresh_Flowers{
+
+.fresh_Flowers {
   justify-content: space-between;
-    max-width: 100%;
+  max-width: 100%;
 }
 
 
 /* Plants Part Start */
-.our_plants{
+.our_plants {
   margin-top: 130px;
 }
-.our_plats_Text{
+
+.our_plats_Text {
   text-align: center;
 }
-.our_plants_heading h3{
+
+.our_plants_heading h3 {
   font-size: 50px;
   font-weight: bold;
   font-family: Noto Serif;
 }
-.our_plants_heading h3 span{
-  color:#E95A08;
+
+.our_plants_heading h3 span {
+  color: #E95A08;
 }
-.our_plants_plain_text{
+
+.our_plants_plain_text {
   color: #000000;
   opacity: 0.5;
   font-size: 22px;
@@ -102,20 +113,35 @@ ul li a:hover {
 }
 
 /* Card Section */
-.card-section{
-  background-color: white;
+.card-section-group {
+  margin-top: 40px;
+  width: 100%;
 }
 
-.card{
-  max-width: 24%;
+.card-1 {
+  display: flex;
+  gap: 2%;
+  width: 100%;
+}
+
+.card-2 {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  gap: 2%;
+}
+
+.card {
   margin: auto;
+  width: 23%;
   text-align: center;
-  padding: 0;
   background-color: #D9D9D9;
 }
-.card h1{
+
+.card h1 {
   margin-bottom: 0;
 }
+
 .price {
   color: #111111;
   font-size: 22px;
@@ -124,18 +150,21 @@ ul li a:hover {
   margin: 0;
 }
 
-.card button {
+.card-button {
   border: none;
   outline: 0;
-  padding: 12px;
+  padding: 15px;
   color: white;
   background-color: #E95A08;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 102%;
   font-size: 18px;
 }
 
 .card button:hover {
   opacity: 0.7;
+  background-color: rgb(5, 60, 60);
 }
+
+/* Flower Plants Part */
