@@ -183,7 +183,7 @@ ul li a:hover {
   padding-top: 30px;
 }
 
-.text-part-plain-text{
+.text-part-plain-text {
   font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 400;
@@ -191,4 +191,115 @@ ul li a:hover {
   word-spacing: 6px;
   margin-top: 20px;
 }
+
 /* Flower section End */
+/* Deal Section Part */
+.Deals {
+  margin-top: 145px;
+}
+
+.deals_text_part {
+  text-align: center;
+}
+
+.deals_heading h1 {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: Noto Serif;
+  padding-bottom: 10px;
+}
+
+.deals_heading h1 span {
+  color: #E95A08;
+}
+
+.deals_text p {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.deals_img_part {
+  display: flex;
+  gap: 5%;
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+}
+
+.deals_img_part img {
+  border-radius: 10px;
+}
+
+.deal-bloom {
+  margin-bottom: 20px;
+
+}
+
+.sixty-text {
+  position: absolute;
+  background: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Noto Serif;
+  transform: translate(22%, 250%);
+  z-index: 2;
+}
+
+.sixty-text-button a {
+  position: absolute;
+  background: none;
+  color: white;
+  font-weight: 500;
+  transform: translate(157%, 603%);
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
+}
+
+.thirty-text {
+  position: absolute;
+  background: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Noto Serif;
+  transform: translate(25%, 250%);
+  z-index: 2;
+}
+
+.deals_second_img {
+  position: relative;
+}
+
+.tweenty-text {
+  position: absolute;
+  background: none;
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: Noto Serif;
+  transform: translate(40%, 310%);
+  z-index: 2;
+}
+
+.tweenty-text-button a {
+  position: absolute;
+  background: none;
+  color: white;
+  font-weight: 500;
+  transform: translate(237%, 700%);
+  font-size: 28px;
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
+}
+
+/* colorful-bunch-part */
+.color-img img{
+  width: 1175px;
+}
+.color-text h1{
+  background: none;
+}
