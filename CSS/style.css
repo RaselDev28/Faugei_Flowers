@@ -297,9 +297,47 @@ ul li a:hover {
 }
 
 /* colorful-bunch-part */
+.colrful-bunch-part{
+  margin-top: 115px;
+}
 .color-img img{
   width: 1175px;
 }
-.color-text h1{
-  background: none;
+
+.colrful-bunch-part{
+  position: relative;
+}
+.color-text {
+    position: absolute;
+    background: none;
+    transform: translate(35%, -215%);
+    color: white;
+    text-align: center;
+}
+.color-text h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Noto Serif;
+    background: none;
+}
+.color-text input {
+    width: 525px;
+    height: 50px;
+    padding-left: 15px;
+    margin-top: 20px;
+    color: black;
+    margin-right:-5px;
+    
+}
+.mailButton {
+    padding: 14px 45px;
+    color: white;
+    background-color: #E95A08;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.mailButton:hover{
+  opacity: .5;
+  transition: 3s;
 }
