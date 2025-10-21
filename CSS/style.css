@@ -45,4 +45,31 @@ ul li a:hover {
   font-weight: bold;
 }
 
-  
+/* Banner Section */
+.banner{
+  margin-top: 50px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.banner .banner-text h1{
+  font-size: 65px;
+  font-weight: 700;
+    font-family: "Noto Serif", serif;
+
+}
+.banner .banner-text h1 span{
+  font-size: 65px;
+  font-weight: 700;
+    font-family: "Noto Serif", serif;
+    color: #E95A08;
+}
+
+.banner .banner-text p{
+  font-size: 22px;
+  font-weight: 400;
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    bottom: -20px;
+}
