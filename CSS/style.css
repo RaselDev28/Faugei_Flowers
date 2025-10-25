@@ -46,30 +46,87 @@ ul li a:hover {
 }
 
 /* Banner Section */
-.banner{
+.banner {
   margin-top: 50px;
   padding-top: 50px;
   display: flex;
   justify-content: space-between;
   position: relative;
 }
-.banner .banner-text h1{
+
+.banner .banner-text h1 {
   font-size: 65px;
   font-weight: 700;
-    font-family: "Noto Serif", serif;
+  font-family: "Noto Serif", serif;
 
 }
-.banner .banner-text h1 span{
+
+.banner .banner-text h1 span {
   font-size: 65px;
   font-weight: 700;
-    font-family: "Noto Serif", serif;
-    color: #E95A08;
+  font-family: "Noto Serif", serif;
+  color: #E95A08;
 }
 
-.banner .banner-text p{
+.banner .banner-text p {
   font-size: 22px;
   font-weight: 400;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  bottom: -20px;
+}
+
+/* Planet Part */
+.planet-part-text{
+  text-align: center;
+}
+.planet-part-text h2{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Noto Serif", serif;
+}
+.planet-part-text h2 span{
+color: #E95A08;
+}
+.planet-part-text p {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
     font-family: "Inter", sans-serif;
-    position: absolute;
-    bottom: -20px;
+    opacity: .5;
+    word-spacing: 4px;
+}
+.planet-part-img-first {
+  display: flex;
+  gap: 2%;
+}
+
+.planet-part-second-first {
+  display: flex;
+  gap: 2%;
+}
+
+.card {
+  max-width: 300px;
+  text-align: center;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px 74px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
 }
