@@ -178,11 +178,13 @@ ul li a:hover {
   /* background-origin: content-box; */
   position: relative;
 }
+
 .flower-plants-img img {
-    position: absolute;
-    top: -22%;
-    left: 61%;
+  position: absolute;
+  top: -22%;
+  left: 61%;
 }
+
 .flower-plants-text {
   width: 100%;
   padding-bottom: 15px;
@@ -205,4 +207,117 @@ ul li a:hover {
   color: #000000;
   opacity: .5;
   word-spacing: 6px;
+}
+
+/* Deals-img-part */
+.deals-text-part h3 {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Noto Serif", serif;
+  margin-right: 10px;
+  margin-top: 145px;
+  margin-bottom: 0;
+}
+
+.deals-text-part h3 span {
+  color: #E95A08;
+}
+
+.deals-text-part p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 115px;
+  font-family: "Inter", sans-serif;
+}
+
+.deals-img-part {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 110px;
+}
+
+.deals-img-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 367px;
+}
+
+.deals-img-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 367px;
+}
+
+.deals-img-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  width: 65%;
+  height: 100%;
+}
+
+.deals-first-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+  gap: 20px;
+}
+
+.offer-content h3,
+.offer-content h2 {
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.offer-content a {
+  display: block;
+  margin-top: 8px;
+  color: white;
+  text-decoration: underline;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.offer-card,
+.offer-right {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.offer-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Noto Serif", serif;
+}
+
+.offer-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Noto Serif", serif;
+}
+
+.deals-img-3 .offer-content a {
+  font-size: 28px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
