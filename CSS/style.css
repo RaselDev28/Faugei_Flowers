@@ -321,3 +321,51 @@ ul li a:hover {
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
+/* Bunch Section */
+
+.bunch-part{
+  background: url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 533px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bunch-content h3{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Noto Serif", serif;
+  color: white;
+  word-spacing: 10px;
+  margin: 0;
+}
+.bunch-content .search-box input {
+    width: 630px;
+    height: 40px;
+    padding-left: 15px;
+    position: absolute;
+    right: 10%;
+}
+.search-box{
+ position: relative;
+ margin-top: 29px;
+}
+.bunch-content .search-box button {
+    color: white;
+    background-color: #E95A08;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    padding: 12px 50px;
+    position: absolute;
+    right: -18.5%;
+    bottom: -44px;
+}
+.bunch-content .search-box button:hover{
+    background-color: cadetblue;
+  transition: .6s;
+}
