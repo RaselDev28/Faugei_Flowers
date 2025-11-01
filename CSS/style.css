@@ -369,3 +369,31 @@ ul li a:hover {
     background-color: cadetblue;
   transition: .6s;
 }
+/* Footer Section */
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-part{
+  background-color: #FFFFFF;
+  padding-top: 50px;
+}
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.footer-menu li a{
+  text-decoration: none;
+}
+.footer-icon{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.logo-text .footer-logo-text p{
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
